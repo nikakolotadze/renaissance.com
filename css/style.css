@@ -191,7 +191,7 @@ ul{
       background-color:rgba(79, 79, 88, .97) ; 
   
   }
- 
+
 
  
 }
@@ -347,11 +347,64 @@ input::placeholder {
 }
 
 .projectlists{
-  text-align: center;
-  margin-top: 10px;
+ 
+  padding: 20px;
+  margin: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #555;
+ text-align: center;
+line-height: 1.8;
 }
 .lists{
   padding: 20px;
   margin: 20px;
- 
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #555;
+ text-align: center;
+line-height: 1.8;
+}
+.card{
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.card::before{
+  content: "COMING SOON";
+  font-size: 24px;
+  color: #555;
+  font-weight: bold;
+  animation: fade-in-out 3s infinite;
+}
+.card:hover{
+  background: #ccc;
+  transition: background 0.5s ease;
+}
+.store{
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.8;
+  color: #333;
+  font-weight: bold;
+}.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  width: 90%;
+  margin: 20px;
 }
