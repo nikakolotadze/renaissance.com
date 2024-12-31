@@ -1,0 +1,338 @@
+
+
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+
+.header-wraper{
+  z-index: 10;
+    background-color: #333;
+    padding: 30px 0;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+
+
+      position: sticky;
+      top: 0;
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      font-family: 'Verdana', sans-serif;
+      text-transform: uppercase; /* ასოები დიდად */
+      letter-spacing: 2px; /* შრიფტებს შორის სივრცე */
+    
+   
+}
+.wrapper{
+   
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: #fff;
+    padding: 7px 15px;
+}
+ul{
+    padding: 20px 0;
+    display: flex;
+}
+.burger-icon {
+    display: none;
+}
+.bodyimg{
+    width: 30%;
+}
+
+.bck{
+    background-color: #a5a1ab;
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 768px){
+  .wrapper, 
+  ul{
+    display: block;
+    text-align: center;
+  }   
+  .nav-a{
+    display: block;
+  }  
+  .social-icons{
+    display: flex;
+    justify-content: center; 
+  } 
+  .logo{
+    text-align: left;
+    display: flex;
+  }
+  .burger-icon{
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    cursor:pointer;
+  }
+  .menu-ul,
+  .social-icons{
+    display: none;
+  }   
+  .menu-ul.open-menu{
+    display: block;
+  } 
+  .social-icons.open-socicon{
+    display: flex;
+  } 
+  .bio{
+    display: none;
+  }
+  .wussup{
+    text-align: center;
+  }
+  .gallery{
+    max-width: 100%;
+    justify-content: center;
+  }
+  .bio-title{
+    display: none;
+  }
+
+  .body{
+ 
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px; /* რბილი კუთხეები */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* რბილი ჩრდილი */
+    max-width: 600px;
+    text-align: center; /* ტექსტის ცენტრში გასწორება */
+      background-color:rgba(79, 79, 88, .97) ; 
+  
+  }
+ 
+
+ 
+}
+
+
+.bio-container {
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bio-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #555;
+ text-align: center;
+line-height: 1.8;
+}
+
+.bio-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #666;
+}
+.imgbio{
+  display: flex;
+  
+  
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #555;
+
+}
+.img{
+  border-radius: 50%;
+}
+.bio{
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(85, 85, 85);
+}
+.wussup{
+ 
+
+  margin-top: 10%; font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #555;
+
+
+}
+.gallery  {
+ 
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 100%;
+  margin: 20px;
+}
+
+
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.last{
+  background-color: #666;
+}
+
+.connected{
+   text-align: center;
+  font-size: 3rem;
+  line-height: 1.8;
+  color: white
+}
+input {
+  margin-left: 2%;
+  background: transparent; 
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+  outline: none; 
+  width: 300px; 
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6); 
+}
+
+
+#music-player{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 100%;
+  background: #2b2b2b;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1000;
+  gap: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+#music-player audio{
+  width: 200px;
+ margin-top: 5px;
+}
+.player-icon{
+  width: 50px;
+  height: 50px;
+}
+.player-controls{
+  
+  flex-direction: column;
+  align-items: flex-start;
+}
+.track-name{
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: bold;
+}
