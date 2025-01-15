@@ -76,7 +76,7 @@
 
 .header-wraper{
   z-index: 10;
-    background-color: #333;
+    background-color: darkblue;
     padding: 30px 0;
     position: relative;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -86,7 +86,7 @@
 
       position: sticky;
       top: 0;
-      background-color: #333;
+
       color: white;
       padding: 20px 0;
       text-align: center;
@@ -195,7 +195,7 @@ ul{
   position: fixed;
   bottom: 10px;
   width: 100%;
-  background: #2b2b2b;
+  background: darkblue;
   color: #fff;
   padding: 10px 15px;
   border-radius: 10px;
@@ -318,23 +318,7 @@ input::placeholder {
 }
 
 
-#music-player{
-  position: fixed;
-  bottom: 10px;
-  width: 100%;
-  background: #2b2b2b;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: 10px;
-  text-align: center;
-  z-index: 1000;
-  gap: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-}
-#music-player audio{
-  width: 200px;
- margin-top: 5px;
-}
+
 .player-icon{
   width: 50px;
   height: 50px;
